@@ -1,8 +1,0 @@
-F:\TaskManagerPub\Branch\WSWinForm\bin\Release\WSWinForm.exe.config
-F:\TaskManagerPub\Branch\WSWinForm\bin\Release\WSWinForm.exe
-F:\TaskManagerPub\Branch\WSWinForm\bin\Release\WSWinForm.pdb
-F:\TaskManagerPub\Branch\WSWinForm\obj\Release\WSWinForm.FrmMain.resources
-F:\TaskManagerPub\Branch\WSWinForm\obj\Release\WSWinForm.Properties.Resources.resources
-F:\TaskManagerPub\Branch\WSWinForm\obj\Release\WSWinForm.csproj.GenerateResource.Cache
-F:\TaskManagerPub\Branch\WSWinForm\obj\Release\WSWinForm.exe
-F:\TaskManagerPub\Branch\WSWinForm\obj\Release\WSWinForm.pdb

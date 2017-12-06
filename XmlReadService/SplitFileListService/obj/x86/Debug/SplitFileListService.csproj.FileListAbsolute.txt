@@ -1,9 +1,0 @@
-E:\CODE\SERVICE\KJServices\XmlReadService\SplitFileListService\obj\x86\Debug\SplitFileListService.Form1.resources
-E:\CODE\SERVICE\KJServices\XmlReadService\SplitFileListService\obj\x86\Debug\SplitFileListService.ProjectInstaller.resources
-E:\CODE\SERVICE\KJServices\XmlReadService\SplitFileListService\obj\x86\Debug\SplitFileListService.Service1.resources
-E:\CODE\SERVICE\KJServices\XmlReadService\SplitFileListService\obj\x86\Debug\SplitFileListService.csproj.GenerateResource.Cache
-E:\CODE\SERVICE\KJServices\XmlReadService\SplitFileListService\bin\Debug\SplitFileListService.exe.config
-E:\CODE\SERVICE\KJServices\XmlReadService\SplitFileListService\bin\Debug\SplitFileListService.exe
-E:\CODE\SERVICE\KJServices\XmlReadService\SplitFileListService\bin\Debug\SplitFileListService.pdb
-E:\CODE\SERVICE\KJServices\XmlReadService\SplitFileListService\obj\x86\Debug\SplitFileListService.exe
-E:\CODE\SERVICE\KJServices\XmlReadService\SplitFileListService\obj\x86\Debug\SplitFileListService.pdb
