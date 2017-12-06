@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b95a598d-6f41-4b5c-a8b9-6db077b69660" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.10.111.253:8000/PSIGW/PeopleSoftServiceListeningConnector/PSFT_HR/CI_C_OA_WSDL_CI.1.wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="M840138.xsd" MetadataType="Schema" ID="78137075-57cb-4119-9109-94e81c84455e" SourceId="1" SourceUrl="http://10.10.111.253:8000/PSIGW/PeopleSoftServiceListeningConnector/PSFT_HR/M840138.V1.xsd" />
+    <MetadataFile FileName="CI_C_OA_WSDL_CI.wsdl" MetadataType="Wsdl" ID="e02bf2d5-2446-4a16-a17c-869fa8bfd401" SourceId="1" SourceUrl="http://10.10.111.253:8000/PSIGW/PeopleSoftServiceListeningConnector/PSFT_HR/CI_C_OA_WSDL_CI.1.wsdl" />
+    <MetadataFile FileName="M1083921.xsd" MetadataType="Schema" ID="2c98ae81-9156-49a0-9a07-1c5d39c49880" SourceId="1" SourceUrl="http://10.10.111.253:8000/PSIGW/PeopleSoftServiceListeningConnector/PSFT_HR/M1083921.V1.xsd" />
+    <MetadataFile FileName="M911462.xsd" MetadataType="Schema" ID="c2a55189-1e16-4bf9-8fe6-c67f7e81557c" SourceId="1" SourceUrl="http://10.10.111.253:8000/PSIGW/PeopleSoftServiceListeningConnector/PSFT_HR/M911462.V1.xsd" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

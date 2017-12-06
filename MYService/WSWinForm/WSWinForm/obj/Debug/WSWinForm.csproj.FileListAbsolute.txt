@@ -1,0 +1,16 @@
+F:\TaskManagerPub\Branch\WSWinForm\bin\Debug\WSWinForm.exe.config
+F:\TaskManagerPub\Branch\WSWinForm\bin\Debug\WSWinForm.exe
+F:\TaskManagerPub\Branch\WSWinForm\bin\Debug\WSWinForm.pdb
+F:\TaskManagerPub\Branch\WSWinForm\obj\Debug\WSWinForm.FrmMain.resources
+F:\TaskManagerPub\Branch\WSWinForm\obj\Debug\WSWinForm.Properties.Resources.resources
+F:\TaskManagerPub\Branch\WSWinForm\obj\Debug\WSWinForm.csproj.GenerateResource.Cache
+F:\TaskManagerPub\Branch\WSWinForm\obj\Debug\WSWinForm.exe
+F:\TaskManagerPub\Branch\WSWinForm\obj\Debug\WSWinForm.pdb
+C:\Users\Administrator\Desktop\WSWinForm\WSWinForm\WSWinForm\bin\Debug\WSWinForm.exe.config
+C:\Users\Administrator\Desktop\WSWinForm\WSWinForm\WSWinForm\obj\Debug\WSWinForm.exe
+C:\Users\Administrator\Desktop\WSWinForm\WSWinForm\WSWinForm\obj\Debug\WSWinForm.pdb
+C:\Users\Administrator\Desktop\WSWinForm\WSWinForm\WSWinForm\bin\Debug\WSWinForm.exe
+C:\Users\Administrator\Desktop\WSWinForm\WSWinForm\WSWinForm\bin\Debug\WSWinForm.pdb
+C:\Users\Administrator\Desktop\WSWinForm\WSWinForm\WSWinForm\obj\Debug\WSWinForm.FrmMain.resources
+C:\Users\Administrator\Desktop\WSWinForm\WSWinForm\WSWinForm\obj\Debug\WSWinForm.Properties.Resources.resources
+C:\Users\Administrator\Desktop\WSWinForm\WSWinForm\WSWinForm\obj\Debug\WSWinForm.csproj.GenerateResource.Cache

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlogMkFtp", "AlogMkFtp\AlogMkFtp.csproj", "{386351F9-0FA3-441E-B483-C996CC401939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplicationFtpTest", "ConsoleApplicationFtpTest\ConsoleApplicationFtpTest.csproj", "{51871C9E-8EF7-497B-8C3F-010450E19D33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTPSycnClient", "FTPSycnClient\FTPSycnClient.csproj", "{3F1EF9F4-F174-40E0-B7BF-2AA51425349B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{386351F9-0FA3-441E-B483-C996CC401939}.Debug|x86.ActiveCfg = Debug|x86
+		{386351F9-0FA3-441E-B483-C996CC401939}.Debug|x86.Build.0 = Debug|x86
+		{386351F9-0FA3-441E-B483-C996CC401939}.Release|x86.ActiveCfg = Release|x86
+		{386351F9-0FA3-441E-B483-C996CC401939}.Release|x86.Build.0 = Release|x86
+		{51871C9E-8EF7-497B-8C3F-010450E19D33}.Debug|x86.ActiveCfg = Debug|x86
+		{51871C9E-8EF7-497B-8C3F-010450E19D33}.Debug|x86.Build.0 = Debug|x86
+		{51871C9E-8EF7-497B-8C3F-010450E19D33}.Release|x86.ActiveCfg = Release|x86
+		{51871C9E-8EF7-497B-8C3F-010450E19D33}.Release|x86.Build.0 = Release|x86
+		{3F1EF9F4-F174-40E0-B7BF-2AA51425349B}.Debug|x86.ActiveCfg = Debug|x86
+		{3F1EF9F4-F174-40E0-B7BF-2AA51425349B}.Debug|x86.Build.0 = Debug|x86
+		{3F1EF9F4-F174-40E0-B7BF-2AA51425349B}.Release|x86.ActiveCfg = Release|x86
+		{3F1EF9F4-F174-40E0-B7BF-2AA51425349B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SubversionScc) = preSolution
+		Svn-Managed = True
+		Manager = AnkhSVN - Subversion Support for Visual Studio
+	EndGlobalSection
+EndGlobal

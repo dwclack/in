@@ -1,0 +1,16 @@
+F:\TESTWEB\20150711\XmlReadService\PicShowEX\bin\Debug\PicShowEX.exe
+F:\TESTWEB\20150711\XmlReadService\PicShowEX\bin\Debug\PicShowEX.pdb
+F:\TESTWEB\20150711\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.Form1.resources
+F:\TESTWEB\20150711\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.Properties.Resources.resources
+F:\TESTWEB\20150711\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.csproj.GenerateResource.Cache
+F:\TESTWEB\20150711\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.exe
+F:\TESTWEB\20150711\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.pdb
+F:\TESTWEB\20150711\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.csprojResolveAssemblyReference.cache
+E:\CODE\SERVICE\KJServices\XmlReadService\PicShowEX\bin\Debug\PicShowEX.exe
+E:\CODE\SERVICE\KJServices\XmlReadService\PicShowEX\bin\Debug\PicShowEX.pdb
+E:\CODE\SERVICE\KJServices\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.csprojResolveAssemblyReference.cache
+E:\CODE\SERVICE\KJServices\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.Form1.resources
+E:\CODE\SERVICE\KJServices\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.Properties.Resources.resources
+E:\CODE\SERVICE\KJServices\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.csproj.GenerateResource.Cache
+E:\CODE\SERVICE\KJServices\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.exe
+E:\CODE\SERVICE\KJServices\XmlReadService\PicShowEX\obj\x86\Debug\PicShowEX.pdb

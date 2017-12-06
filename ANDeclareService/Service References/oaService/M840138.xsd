@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns="http://xmlns.oracle.com/Enterprise/Tools/schemas/M840138.V1" elementFormDefault="qualified" targetNamespace="http://xmlns.oracle.com/Enterprise/Tools/schemas/M840138.V1" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:element name="Update__CompIntfc__C_OA_WSDL_CI" type="Update__CompIntfc__C_OA_WSDL_CITypeShape" />
+  <xsd:complexType name="Update__CompIntfc__C_OA_WSDL_CITypeShape">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="C_OA_IF_WSDL_OT" type="C_OA_IF_WSDL_OTComplexTypeShape" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="C_OA_IF_WSDL_OTComplexTypeShape">
+    <xsd:sequence>
+      <xsd:element name="C_OA_SEQ" type="C_OA_SEQTypeShape" />
+      <xsd:element minOccurs="0" name="EMPLID" type="EMPLIDTypeShape" />
+      <xsd:element minOccurs="0" name="EFFDT" type="EFFDTTypeShape" />
+      <xsd:element minOccurs="0" name="ACTION" type="ACTIONTypeShape" />
+      <xsd:element minOccurs="0" name="ACTION_REASON" type="ACTION_REASONTypeShape" />
+      <xsd:element minOccurs="0" name="POSITION_NBR" type="POSITION_NBRTypeShape" />
+      <xsd:element minOccurs="0" name="C_POSN_LVL" type="C_POSN_LVLTypeShape" />
+    </xsd:sequence>
+  </xsd:complexType>
+  <xsd:complexType name="C_OA_SEQTypeShape">
+    <xsd:simpleContent>
+      <xsd:extension base="C_OA_SEQTypeDef" />
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="EMPLIDTypeShape">
+    <xsd:simpleContent>
+      <xsd:extension base="EMPLIDTypeDef" />
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="EFFDTTypeShape">
+    <xsd:simpleContent>
+      <xsd:extension base="EFFDTTypeDef" />
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="ACTIONTypeShape">
+    <xsd:simpleContent>
+      <xsd:extension base="ACTIONTypeDef" />
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="ACTION_REASONTypeShape">
+    <xsd:simpleContent>
+      <xsd:extension base="ACTION_REASONTypeDef" />
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="POSITION_NBRTypeShape">
+    <xsd:simpleContent>
+      <xsd:extension base="POSITION_NBRTypeDef" />
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:complexType name="C_POSN_LVLTypeShape">
+    <xsd:simpleContent>
+      <xsd:extension base="C_POSN_LVLTypeDef" />
+    </xsd:simpleContent>
+  </xsd:complexType>
+  <xsd:simpleType name="C_OA_SEQTypeDef">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="50" />
+      <xsd:whiteSpace value="preserve" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="EMPLIDTypeDef">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="11" />
+      <xsd:whiteSpace value="preserve" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="EFFDTTypeDef">
+    <xsd:restriction base="xsd:date" />
+  </xsd:simpleType>
+  <xsd:simpleType name="ACTIONTypeDef">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="3" />
+      <xsd:whiteSpace value="preserve" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="ACTION_REASONTypeDef">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="3" />
+      <xsd:whiteSpace value="preserve" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="POSITION_NBRTypeDef">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="8" />
+      <xsd:whiteSpace value="preserve" />
+    </xsd:restriction>
+  </xsd:simpleType>
+  <xsd:simpleType name="C_POSN_LVLTypeDef">
+    <xsd:restriction base="xsd:string">
+      <xsd:maxLength value="3" />
+      <xsd:whiteSpace value="preserve" />
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:schema>

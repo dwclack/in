@@ -1,0 +1,9 @@
+F:\TESTWEB\20150711\XmlReadService\NSDDDisServices\obj\x86\Debug\NSDDDisServices.ProjectInstaller.resources
+F:\TESTWEB\20150711\XmlReadService\NSDDDisServices\obj\x86\Debug\NSDDDisServices.Service1.resources
+F:\TESTWEB\20150711\XmlReadService\NSDDDisServices\bin\Debug\NSDDDisServices.exe.config
+F:\TESTWEB\20150711\XmlReadService\NSDDDisServices\bin\Debug\NSDDDisServices.exe
+F:\TESTWEB\20150711\XmlReadService\NSDDDisServices\bin\Debug\NSDDDisServices.pdb
+F:\TESTWEB\20150711\XmlReadService\NSDDDisServices\obj\x86\Debug\NSDDDisServices.exe
+F:\TESTWEB\20150711\XmlReadService\NSDDDisServices\obj\x86\Debug\NSDDDisServices.pdb
+F:\TESTWEB\20150711\XmlReadService\NSDDDisServices\obj\x86\Debug\NSDDDisServices.Form1.resources
+F:\TESTWEB\20150711\XmlReadService\NSDDDisServices\obj\x86\Debug\NSDDDisServices.csproj.GenerateResource.Cache

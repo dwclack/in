@@ -1,0 +1,5 @@
+E:\CODE\SERVICE\KJServices\XmlReadService\TestConsoleApplication\bin\Debug\TestConsoleApplication.exe
+E:\CODE\SERVICE\KJServices\XmlReadService\TestConsoleApplication\bin\Debug\TestConsoleApplication.pdb
+E:\CODE\SERVICE\KJServices\XmlReadService\TestConsoleApplication\obj\x86\Debug\TestConsoleApplication.exe
+E:\CODE\SERVICE\KJServices\XmlReadService\TestConsoleApplication\obj\x86\Debug\TestConsoleApplication.pdb
+E:\CODE\SERVICE\KJServices\XmlReadService\TestConsoleApplication\bin\Debug\TestConsoleApplication.exe.config
