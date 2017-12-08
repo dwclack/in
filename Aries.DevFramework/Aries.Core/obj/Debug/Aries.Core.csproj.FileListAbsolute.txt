@@ -1,0 +1,15 @@
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\Aries.Core.dll
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\Aries.Core.pdb
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\CYQ.Data.dll
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\NPOI.dll
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\NPOI.OOXML.dll
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\NPOI.OpenXml4Net.dll
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\ICSharpCode.SharpZipLib.dll
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\NPOI.OpenXmlFormats.dll
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\CYQ.Data.xml
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\NPOI.xml
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\NPOI.OOXML.xml
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\bin\Debug\NPOI.OpenXml4Net.xml
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\obj\Debug\Aries.Core.csprojResolveAssemblyReference.cache
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\obj\Debug\Aries.Core.dll
+E:\CODE\MYFRAME\CODE\Aries-master\Aries.DevFramework\Aries.Core\obj\Debug\Aries.Core.pdb

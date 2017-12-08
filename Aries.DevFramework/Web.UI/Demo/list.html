@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <script src="/Style/JS/Aries.Loader.js"></script>
+
+</head>
+<body>
+    <pre class="brush:js;toolbar:false">
+         GitHub 开源：<a href="https://github.com/cyq1162/Aries"  target="_blank">https://github.com/cyq1162/Aries</a>  作者：<a href="http://www.cnblogs.com/cyq1162"  target="_blank">路过秋天</a>
+</pre>
+    <hr />
+    <div title="我要把工具条放这里面来" id="toolbar">
+    </div>
+    <div style="height: 400px;">
+        <div id="dg"></div>
+    </div>
+
+
+    <div id="dg_toolbar" style="display: none;">
+        <div class="line">
+            <div class="short">
+                <label>自定义F1：</label><input type="text" class="easyui-validatebox easyui-numberbox"  validtype="length[1,11]"  name="F1">
+            </div>
+            <div class="short">
+                <label>自定义F2：</label><input type="text" configkey="是否" defaultitem="false" name="F2">
+            </div>
+        </div>
+    </div>
+    <!-- <input type="number" />
+    <input type="range" min="0" max="100" step="5" value="5" onchange="display.value=value" id="r" />
+    <output id="display" onload="value=111"></output>
+    <progress max="100" min="0" value="30" step="5" id="pr" onchange="pro.value='AAF'"></progress><output id="pro">AF</output>
+    <datalist id="lst">
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+    </datalist>
+    <input list="lst" /><br />
+    <textarea spellcheck="false"></textarea>-->
+</body>
+</html>
+<script type="text/javascript">
+    // alert(JSON.stringify(AR.Global.GetUser()));
+    var customToolbar = AR.Utility.queryString('toolbar');
+    var grid = new AR.DataGrid('V_Test', 'Demo_TestA');
+
+    //自定义工具栏
+    if (customToolbar) {
+        grid.Search.$target = $('#dg_toolbar');
+    }
+    //grid.options = {
+    //    //fit:false,
+    //    queryParams: { "a": 1 },
+    //    onLoadSuccess: function () {
+    //       // grid.ToolBar.$target.appendTo("#toolbar");
+    //       // alert('options.onLoadSuccess');
+    //        //grid.datagrid("freezeRow", 1);
+    //        //grid.datagrid("freezeRow", 2);
+
+    //    },
+    //    onBeforeLoad: function () {
+
+    //       // alert('onBeforeLoad');
+    //    }
+    //}
+    grid.Search.BtnQuery.onBeforeExecute = function (data) {
+        // alert('BtnQuery.onBeforeExecute');
+    }
+    // grid.isShowToolArea = false;
+    //grid.ToolBar.isHidden = true;
+    //grid.Search.isHidden = true;
+    //grid.Search.$target.find('[name="F1"]').val('test');    
+    grid.ToolBar.add('自定义按钮', 'fn', 10, 'btn-lg', "edit");
+    grid.PKColumn.add('edit', '编辑', null, 'edit.html', '编辑Test表');
+    grid.PKColumn.add('del');
+    grid.PKColumn.add('abc', "hello", null, "aaa.html?uid={ID}", "hello world!");//{XXX}的值会被对应的字段值替换（注意大小写）。
+    grid.PKColumn.onBeforeExecute = function (v, r, i, btns) {
+        //btns[0].isHidden = true;
+        //return v + "bd";
+    };
+    grid.PKColumn.onAfterExecute = function (v, r, i, s) {
+        //this.Items[i].edit.hide();
+        //return s.prop("outHTML");
+    };
+    //grid.options.defaultWhere = [
+    //    { name: 'F1', pattern: 'like', value: '1' },
+    //    { name: 'F3', pattern: 'like', value: '3' }
+    //];
+    grid.addWhere("f1", "3", "like");
+    grid.removeWhere("f1");
+    grid.Search.onAfterExecute = function () {
+        if (!customToolbar && this.Items.length > 0) {
+            //  this.Items["f1"] && this.Items["f1"].val('1');
+        }
+        // this.Items['F2'].val(1);
+        //this.Items['F3'][0].val('2016-07-08');
+        //this.Items['F4'].val('400000000');
+    }
+    //grid.Search.BtnQuery.onBeforeExecute = function (data)
+    //{
+    //    data.push({ name: 'F2', pattern: 'like', value: '2' });
+    //}
+    //grid.ToolBar.BtnAdd.winUrl = "http://aries.cyqdata.com"; 
+    //grid.ToolBar.BtnAdd.winTitle = "官网示例";
+    grid.bind();
+    function F7(v, r, i) {
+        return "f7:" + v;
+    }
+    function F8(v, r, i) {
+        return "f8:" + v;
+    }
+    function fn() {
+        alert('fn');
+        return false;//return false 才能阻碍后续的窗口打开事件。
+        AR.Utility.Window.showMsg('TEST');
+    }
+    function styleFormatter() {
+        return 'background-color:#ffee00;color:red;';
+    }
+    function imgFormatter(value, row, index) {
+        return "<img src='" + value + "\' />";
+    }
+    //AR.Utility.Window.showMsg("hellow", "title");
+</script>
+
